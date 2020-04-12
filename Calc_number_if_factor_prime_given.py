@@ -1,5 +1,27 @@
 # Created by RAHUL S H on 4/4/20
 
+'''
+All the input and output are accepted through the console.
+Prints the number if given input in the following manner
+
+INPUT:
+First line is the number of test cases  (T)
+Next T  lines consists of the x and k where 
+x is the number of factors and 
+k is prime factors
+
+Ex:
+2 =Test cases
+4 2 = x and y
+
+OUTPUT
+One line answer for each test case printing number if exixts and 0 if no number exists
+Ex:
+6
+As 6 has factors 1,2,3,4 which is equal to x
+and has 2,3 as prime factors which is equal to k
+'''
+
 from math import sqrt
 
 siz_array = 1000002
